@@ -1,0 +1,95 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.container {
+    display: flex;
+    padding-left: 120px;
+    background-color: blue;
+}
+
+.fa-trophy {
+    color: gold;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 90%;
+    margin-top: 100px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgb(199, 54, 78);
+    padding: 10px 20px;
+}
+
+.football:hover {
+    transform: rotate(-30deg);
+    transition: transform 0.2s ease-in;
+}
+
+.short {
+    margin-top: 50px;
+}
+
+
+/*---------football players------ */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 10px;
+    grid-row: 25px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail img {
+    width: 177px;
+    height: 117px;
+    margin: 40px;
+}
+
+.blogs {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin: 240px auto;
+    margin-left: 240px;
+}
+
+.short.blogs {
+    position: absolute;
+    width: calc(200px -30px);
+    height: calc(200px -30px);
+    float: left;
+    margin: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.short {
+    margin-top: 100px;
+}
+
+.fa-insta.fa-twitter.fa-firefox-broser.fa-youtube {
+    text-align: center;
+}
